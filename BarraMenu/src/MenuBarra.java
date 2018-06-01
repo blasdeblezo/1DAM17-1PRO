@@ -1,6 +1,7 @@
-package MenuBarraEclipae;
+
 
 import java.awt.BorderLayout;
+
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -20,8 +21,7 @@ import javax.swing.KeyStroke;
 import javax.swing.SwingUtilities;
 import javax.xml.transform.OutputKeys;
 
-import AcesoRapido.VP;
-import AcesoRapido.VPAcciones;
+
 
 public class MenuBarra extends JFrame implements ActionListener{
 
