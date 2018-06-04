@@ -23,7 +23,7 @@ import javax.xml.transform.OutputKeys;
 
 
 
-public class MenuBarra extends JFrame implements ActionListener{
+public class MenuBarra extends JFrame {
 
 	JMenuBar menubar = new JMenuBar();
 	JMenuItem menuItem;
@@ -379,18 +379,6 @@ public class MenuBarra extends JFrame implements ActionListener{
 		});
 		return menun;
 	}
-
-	@Override
-	public void actionPerformed(ActionEvent e) {
-		        if (e.getActionCommand() != null) {		            
-		            popup.show(menu, KeyEvent.VK_N, KeyEvent.ALT_MASK | KeyEvent.SHIFT_MASK);
-	            popup.show(menu, 100, 20);
-		          
-		        }
-	}
-
-
-		
 
 
 }
